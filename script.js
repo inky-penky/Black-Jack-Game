@@ -24,7 +24,7 @@ let cardsEl = document.getElementById("cards-el")
 let sumEl = document.querySelector("#sum-el");
 let playerEl = document.getElementById("player-el");
 
-~playerEl.textContent = player.name + ": $" + player.chips;
+playerEl.textContent = player.name + ": $" + player.chips;
 
 
 const startGame = () => {
